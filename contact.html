@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<style type="text/css">
+    .footer {
+        position: absolute;
+        width: 100%;
+        height: 60px;
+        line-height: 60px;
+        text-align: center;
+    }
+</style>
+
+<body background="https://i.imgur.com/kQ2rF6y.png">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Erin J. Lyden</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">About Me <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="main-container" class="container">
+        <section class="main-section">
+            <h1>Contact</h1>
+            <p></p>
+
+            <form id="contact-form" style= "margin-bottom:20px; margin-top: 10px;"">
+                <ul style="list-style:none;">
+                    <li>
+                        <label for="name" style="display: block; width: 150px;">Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email" style="display: block; width: 150px;">Email</label>
+                        <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" required="required" style="height: 200px; width: 400px; display: block;"></textarea>
+                    </li>
+                </ul>
+                <input type="submit">
+            </form>
+
+        </section>
+
+    </div>
+
+    <footer class="footer" style="background-color: #f8f9fa">
+        <div class="container">
+            <span class="text-muted">Erin J. Lyden | Copyright 2019.</span>
+        </div>
+    </footer>
+
+</body>
