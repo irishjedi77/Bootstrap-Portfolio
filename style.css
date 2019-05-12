@@ -1,0 +1,12 @@
+img {
+  position: relative;
+  width: 100%;
+}
+
+h4 
+{ 
+position: absolute; 
+top: 200px; 
+left: 0; 
+width: 100%; 
+}
